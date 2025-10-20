@@ -1,0 +1,12 @@
+{
+	"dependencies": {
+		"Audit": {
+			"github": "miyako/Audit",
+			"version": "latest"
+		},
+		"xlsx editor": {
+			"github": "miyako/xlsx-editor",
+			"version": "latest"
+		}
+	}
+}
