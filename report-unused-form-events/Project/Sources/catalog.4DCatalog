@@ -2,6 +2,15 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="report-unused-form-events" uuid="D7284C360B9142B2B0E4B950E0C77549" collation_locale="en-gb">
 	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="F968A370E5DA4AEFB07E90AA316207A0" id="1">
+		<field name="ID" uuid="1924DF3D941742B4B884F2F435E60F61" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<primary_key field_name="ID" field_uuid="1924DF3D941742B4B884F2F435E60F61"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="D8F330DA77A4468E9CA464623F4B51FF" type="7">
+		<field_ref uuid="1924DF3D941742B4B884F2F435E60F61" name="ID">
+			<table_ref uuid="F968A370E5DA4AEFB07E90AA316207A0" name="Table_1"/>
+		</field_ref>
+	</index>
 	<base_extra>
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
